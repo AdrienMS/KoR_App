@@ -1,0 +1,10 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Kingdom Of Rhea",
+  "short_name": "Kingdom Of Rhea",
+  "version": "fr.grafikart.weather",
+  "author": "Adrien Musserotte",
+  "icons": [],
+  "start_url": "index.html"
+}

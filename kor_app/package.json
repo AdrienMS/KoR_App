@@ -1,0 +1,13 @@
+{
+  "name": "fr.kingdomofrhea.app",
+  "version": "0.0.1",
+  "displayName": "Kingdom Of Rhea",
+  "cordova": {
+    "platforms": [
+      "browser"
+    ]
+  },
+  "dependencies": {
+    "cordova-browser": "~5.0.1"
+  }
+}
