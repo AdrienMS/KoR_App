@@ -1,0 +1,14 @@
+{
+    "dialogues": [
+        { "text": "L’histoire se déroule peu de temps avant les événements de KoR.", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "Au commencement le joueur incarne Eowl, mage air.", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "Au fil des aventures des premiers villages de la carte, le joueur recrutera d’autres personnages (Ophélia, Lysandre et Haywa).", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "Chacun des personnages interagira dans l’histoire en fonction de son rôle, et le joueur influera sur les destins des 4 personnages et donc de l’équipe tout entière.", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "Lorsque les 4 mages seront réunis, qu’ils seront unis derrière un objectif commun ils décideront de former une équipe en se donnant un nom.", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "Eowl : « Qu’est-ce qui nous unis ? Notre volonté de protéger la liberté de Rhéa »", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "« Les oiseaux, je les envie, ils sont sans limite… »", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "« Jurons-nous d’utiliser notre magie en ce sens, de toujours se prêter main forte et d’aider ceux qui en ont besoin ! »", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "« Rainbird… »", "character_to_display_1": "null", "character_to_display_2": "null" },
+        { "text": "« Voilà un nom qui me plaît. »", "character_to_display_1": "null", "character_to_display_2": "null" }
+    ]
+}

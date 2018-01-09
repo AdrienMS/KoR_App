@@ -19,14 +19,34 @@
     </section>
 
     <nav class="nav" ng-controller="NavCtrl">
-        <a href="#home" ng-click="menu='home'" ng-class="{active: menu=='home'}"><i class="icon-home"></i></a>
-        <a href="#about" ng-click="menu='about'" ng-class="{active: menu=='about'}"><i class="icon-about"></i></a>
+        <a href="#home" ng-click="menu='home'" ng-class="{active: menu=='home'}">home</a>
+        <a href="#about" ng-click="menu='about'" ng-class="{active: menu=='about'}">about</a>
     </nav>
 
     <script src="js/jquery.js"></script>
     <script src="js/angular.js"></script>
+
+    <script src="js/classes/bonus.js"></script>
+    <script src="js/classes/beforeChoice.js"></script>
+    <script src="js/classes/character.js"></script>
+    <script src="js/classes/choice.js"></script>
+    <script src="js/classes/current_state.js"></script>
+    <script src="js/classes/game.js"></script>
+    <script src="js/classes/inventory.js"></script>
+    <script src="js/classes/kinematic.js"></script>
+    <script src="js/classes/place.js"></script>
+    <script src="js/classes/quest.js"></script>
+    <script src="js/classes/stuff.js"></script>
+
+    <script src="js/common/do_choice.js"></script>
+    <script src="js/common/global.js"></script>
+    <script src="js/common/json.js"></script>
+    <script src="js/common/list.js"></script>
+
+    <script src="js/controller/CreditsCtrl.js"></script>
     <script src="js/controller/NavCtrl.js"></script>
-    <script src="js/controller/WeatherCtrl.js"></script>
+    <script src="js/controller/QuestCtrl.js"></script>
+
     <script src="js/app.js"></script>
 </body>
 
