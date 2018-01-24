@@ -6,4 +6,20 @@
         <div id="map"></div>
         <ul id="quests"></ul>
     </div>
+    <div class="sending-characters" id="sending-characters">
+        <div class="sending-characters__content">
+            <p class="sending-characters__content__id-quest" id="id_quest"></p>
+            <p class="sending-characters__content__close" onclick="close_sending_characters()">X</p>
+            <p class="sending-characters__content__title-quest" id="title_quest"></p>
+            <p class="sending-characters__content__text">
+                Combien de personnages voulez-vous envoyer ?
+            </p>
+            <div class="sending-characters__content__buttons">
+                <p class="sending-characters__content__buttons__button" id="button_1" onclick="start_quest(1)">1</p>
+                <p class="sending-characters__content__buttons__button" id="button_2" onclick="start_quest(2)">2</p>
+                <p class="sending-characters__content__buttons__button" id="button_3" onclick="start_quest(3)">3</p>
+                <p class="sending-characters__content__buttons__button" id="button_4" onclick="start_quest(4)">4</p>
+            </div>
+        </div>
+    </div>
 </section>

@@ -18,26 +18,26 @@ var stuffs_lists = [
 ]
 
 var quests_list = [
-    new Quest("Quest 1", "quest 1", [], 500, 0, null, false),
-    new Quest("Quest 2", "quest 2", [], 500, 0, null, false),
-    new Quest("Quest 3", "quest 3", [], 500, 0, null, false),
-    new Quest("Quest 4", "quest 4", [], 500, 0, null, false),
-    new Quest("Quest 5", "quest 5", [], 500, 0, null, false),
-    new Quest("Quest 6", "quest 6", [], 500, 0, null, false),
-    new Quest("Quest 7", "quest 7", [], 500, 0, null, false),
-    new Quest("Quest 8", "quest 8", [], 500, 0, null, false),
-    new Quest("Quest 9", "quest 9", [], 500, 0, null, false),
-    new Quest("Quest 10", "quest 10", [], 500, 0, null, false),
-    new Quest("Quest 11", "quest 11", [], 500, 0, null, false),
-    new Quest("Quest 12", "quest 12", [], 500, 0, null, false),
-    new Quest("Quest 13", "quest 13", [], 500, 0, null, false),
-    new Quest("Quest 14", "quest 14", [], 500, 0, null, false),
-    new Quest("Quest 15", "quest 15", [], 500, 0, null, false),
-    new Quest("Quest 16", "quest 16", [], 500, 0, null, false),
-    new Quest("Quest 17", "quest 17", [], 500, 0, null, false),
-    new Quest("Quest 18", "quest 18", [], 500, 0, null, false),
-    new Quest("Quest 19", "quest 19", [], 500, 0, null, false),
-    new Quest("Quest 20", "quest 20", [], 500, 0, null, false),
+    new Quest("Quest 1", "quest 1", [], 500, 3000, null, null, false),
+    new Quest("Quest 2", "quest 2", [], 500, 3000, null, null, false),
+    new Quest("Quest 3", "quest 3", [], 500, 3000, null, null, false),
+    new Quest("Quest 4", "quest 4", [], 500, 3000, null, null, false),
+    new Quest("Quest 5", "quest 5", [], 500, 3000, null, null, false),
+    new Quest("Quest 6", "quest 6", [], 500, 3000, null, null, false),
+    new Quest("Quest 7", "quest 7", [], 500, 3000, null, null, false),
+    new Quest("Quest 8", "quest 8", [], 500, 3000, null, null, false),
+    new Quest("Quest 9", "quest 9", [], 500, 3000, null, null, false),
+    new Quest("Quest 10", "quest 10", [], 500, 3000, null, null, false),
+    new Quest("Quest 11", "quest 11", [], 500, 3000, null, null, false),
+    new Quest("Quest 12", "quest 12", [], 500, 3000, null, null, false),
+    new Quest("Quest 13", "quest 13", [], 500, 3000, null, null, false),
+    new Quest("Quest 14", "quest 14", [], 500, 3000, null, null, false),
+    new Quest("Quest 15", "quest 15", [], 500, 3000, null, null, false),
+    new Quest("Quest 16", "quest 16", [], 500, 3000, null, null, false),
+    new Quest("Quest 17", "quest 17", [], 500, 3000, null, null, false),
+    new Quest("Quest 18", "quest 18", [], 500, 3000, null, null, false),
+    new Quest("Quest 19", "quest 19", [], 500, 3000, null, null, false),
+    new Quest("Quest 20", "quest 20", [], 500, 3000, null, null, false),
 ];
 
 var places_list = [
@@ -98,6 +98,8 @@ var before_choice_list = [
 ]
 
 //modifier par rapport à la sauvegarde de l'utilisateur
+var characters_enabled = 4;
 var inventory = new Inventory(null, 500);
 var game = new Game(inventory, 0);
 var game_datas = [];
+var d = new Date();
